@@ -9,5 +9,9 @@
     <h1>Pet Applications</h1>
 </head> 
 
+<body>
+
+    <?PHP require("navbar.php");?>
+</body>
 
 </html>

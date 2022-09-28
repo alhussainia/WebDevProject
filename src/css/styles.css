@@ -5,10 +5,11 @@ h1 {
 }
 
 body {
-    background-color:rgb(201, 229, 254);
+    background-color: rgb(201, 229, 254);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#nav{
+#nav {
     text-align: center;
     font-size: 20px;
 }

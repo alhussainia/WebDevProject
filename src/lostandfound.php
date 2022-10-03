@@ -16,7 +16,7 @@
     <div style="width: 25%; float: left; margin-left: 15px;"> 
         <h2> Lost Pets: </h2>
         <img src="../imgs/Spencer.png" style="width: 40%;">
-        <p>Name: Spencer Shreiner <BR>Found: Brinser Field on 9/22/22</p>
+        <p>Name: Spencer Shreiner <BR>Lost: Brinser Field on 9/22/22</p>
 
         
         <div style= "width: 95%; float: left; margin-left: 0px;">

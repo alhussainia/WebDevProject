@@ -13,13 +13,16 @@
      
     <?PHP require("navbar.php");?>
 
-    <div style="width: 25%; float: left; margin-left: 15px; padding-bottom: 10px;"> 
+    <div style="width: 25%; float: left; margin-left: 15px;"> 
         <h2> Lost Pets: </h2>
-        <img src="../imgs/Spencer.png" style="width: 100%;">
+        <img src="../imgs/Spencer.png" style="width: 40%;">
+        <p>Name: Spencer Shreiner <BR>Found: Brinser Field on 9/22/22</p>
+
         
-        <div style= "width: 95%; float: left; margin-left: 15px; padding-bottom: 10px;">
+        <div style= "width: 95%; float: left; margin-left: 0px;">
         <h2> Found Pets: </h2>
-        <img src="../imgs/Angel.png" style="width: 100%;">
+        <img src="../imgs/Angel.png" style="width: 40%;">
+        <p>Name: Angel Closs <BR>Found: The Dell on 9/18/22</p>
 
         </div>
     </div> 
@@ -28,29 +31,29 @@
         <h2> Purpose of this Page: </h2>
         <p> The purpose of this page is for pet owners to update information on their pets if they go missing to help find missing pets on campus. </p>
 
-        </div>
 
-        <div style= "width: 70%; float: right; margin-right: 15px;">
-        <h2> Enter missing pet info here: </h2>
+        <div style= "width: 50%; float: left; margin-left: 0px;">
+        <h2> Lost Pet? </h2>
         <form method=post action=students.php>
         Pet First Name: <input name="first_name"><BR/>
         Pet Last Name: <input name="last_name"><BR/>
         Date Missing: <input name="last_name"><BR/>
         Last Seen Here: <input name="last_name"><BR/>
-        <input type="submit" value="Enter">
+        <input type="submit" value="Submit">
         </form>
 
         </div>
 
-        <div style= "width: 70%; float: right; margin-right: 15px;">
-        <h2> If your pet was found enter: </h2>
+        <div style= "width: 50%; float: right; margin-right: 0px;">
+        <h2> Was your pet found? </h2>
         <form method=post action=students.php>
         Pet First Name: <input name="first_name"><BR/>
         Pet Last Name: <input name="last_name"><BR/>
         Pet Found <input name="Pet Found" type="checkbox" value="1" '.$checked.'><BR/>
-        <input type="submit" value="Enter">
+        <input type="submit" value="Submit">
         </form>
 
+    </div>
     </div>
 
 </body>

@@ -13,7 +13,7 @@
     <?PHP require("navbar.php");?>
 <body>
     
-    <div style="width: 30%; float: left; margin-left: 15px;"}>
+    <div style="width: 30%; float: left; margin-left: 15px;">
         <h2>About Us</h2>
             <p>This website was created for students of Elizabethtown College to enter information about their pets, in the form of a profile. This site will be used to keep track of all of the pets that live on campus, in the case of one going missing, so other students can keep a lookout for the missing animal to help find them. This website will be used by any students and faculty of Elizabethtown College to help keep track of any and all animals that are living on campus with students. </p>
         </div>

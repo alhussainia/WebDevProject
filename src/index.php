@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 
 <head>
     <title>Elizabethtown College's Pet Profiles</title>
@@ -13,9 +13,14 @@
     <?PHP require("navbar.php");?>
 <body>
     
-    <div class="container">
+    <div>
         <h2>About Us</h2>
             <p>This website was created for students of Elizabethtown College to enter information about their pets, in the form of a profile. This site will be used to keep track of all of the pets that live on campus, in the case of one going missing, so other students can keep a lookout for the missing animal to help find them. </p>
+    </div>
+
+    <div> 
+        <h2> Pet Spotlight of the Week: </h2>
+        <img src="../imgs/EtownLogo.jpg" style="width:50%">
     </div>
     
 

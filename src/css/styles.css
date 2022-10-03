@@ -13,3 +13,13 @@ body {
     text-align: center;
     font-size: 20px;
 }
+
+.forum {
+    border: solid red;
+
+}
+
+.pets {
+    display: block;
+    text-decoration: none;
+}

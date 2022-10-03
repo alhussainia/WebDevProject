@@ -13,8 +13,15 @@
     <div>
      
     <?PHP require("navbar.php");?>
-
+    <h1> Check out our featured pets! </h1>
     </div>
+
+    <div id = "profiles">
+        <ul class = "pets">
+            <li class = "pet-box"> Spencer </li>
+                <a href = "https://www.etown.edu" title = "Spencer"> <img src = "../imgs/Spencer.png" height = 200px>
+            <li class = "pet-box"> Angel </li>
+                <a href = "https://www.etown.edu" title = "Angel"> <img src = "../imgs/Angel.png" height = 200px>
 
 </body>
 

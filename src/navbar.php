@@ -1,4 +1,4 @@
-<div id = "nav">
+<div id = "nav"> 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="navbar-nav">
             <a class="nav-item nav-link active" href="index.php">| Home |<span class="sr-only"></span></a>

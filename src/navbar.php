@@ -1,3 +1,5 @@
+
+
 <div id = "nav"> 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="navbar-nav">
@@ -9,5 +11,4 @@
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </div>
     </nav>
-</body>
 </div>

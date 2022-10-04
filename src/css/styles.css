@@ -15,11 +15,33 @@ body {
 }
 
 .forum {
-    border: solid red;
+  text-align: center;
 
 }
 
-.pets {
-    display: block;
-    text-decoration: none;
+.forms{
+    text-align: center;
+}
+.petform{
+    /*border: 2px solid navy;*/
+    float: left;
+    width: 50%;
+}
+
+.ownerform{
+    /*border: 2px solid navy;*/
+    float: right;
+    width: 50%;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.floater{
+    float: left;
+    text-align: center;
+    padding: 20px;
 }

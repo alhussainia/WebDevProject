@@ -13,16 +13,21 @@
     <div>
      
     <?PHP require("navbar.php");?>
-    <h1> Check out our featured pets! </h1>
+    <h2 style = "text-align:center;"> Pets On Campus</h2>
+    <h3> Cats </h3>
     </div>
 
-    <div id = "profiles">
-        <ul class = "pets">
-            <li class = "pet-box"> Spencer </li>
-                <a href = "https://www.etown.edu" title = "Spencer"> <img src = "../imgs/Spencer.png" height = 200px>
-            <li class = "pet-box"> Angel </li>
-                <a href = "https://www.etown.edu" title = "Angel"> <img src = "../imgs/Angel.png" height = 200px>
-
+    <div id ="profiles">
+        <div id = "Angel" class="floater">
+            <img src="../imgs/Angel.png" style="height:250px; width:200px; display:block; margin:auto;"> <p>Angel</p>
+        </div>
+        <div id = "Kyra" class="floater">
+            <a href="../src/kyra.php"><img src="../imgs/Kyra.jpg" style="height:250px; width:200px; display:block; margin:auto;"><p>Kyra</p></a>
+        </div>
+        <div id = "Spencer" class="floater">
+            <img src="../imgs/Spencer.png" style="height:250px; width:200px; display:block; margin:auto;"><p>Spencer</p> 
+        </div>
+</div>
 </body>
 
 

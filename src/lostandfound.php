@@ -33,23 +33,24 @@
 
 
         <div style= "width: 50%; float: left; margin-left: 0px;">
-        <h2> Lost Pet? </h2>
+        <h2> Lost Your Pet? </h2>
         <form method=post action=students.php>
         Pet First Name: <input name="first_name"><BR/>
         Pet Last Name: <input name="last_name"><BR/>
-        Date Missing: <input name="last_name"><BR/>
-        Last Seen Here: <input name="last_name"><BR/>
+        Date Missing: <input name="date"><BR/>
+        Last Seen Here: <input name="last_seen"><BR/>
         <input type="submit" value="Submit">
         </form>
 
         </div>
 
         <div style= "width: 50%; float: right; margin-right: 0px;">
-        <h2> Was your pet found? </h2>
+        <h2> Did you find a pet? </h2>
         <form method=post action=students.php>
         Pet First Name: <input name="first_name"><BR/>
-        Pet Last Name: <input name="last_name"><BR/>
-        Pet Found <input name="Pet Found" type="checkbox" value="1" '.$checked.'><BR/>
+        Pet Description: <input name="description"><BR/>
+        Date Found: <input name="date"><BR/>
+        Location Found:  <input name="location"><BR/>
         <input type="submit" value="Submit">
         </form>
 

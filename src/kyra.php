@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?PHP require("navbar.php");?>
+
 <head>
     <title>Kyra's Profile</title>
     <meta charset="UTF-8">
@@ -16,6 +18,8 @@
 <div style="margin-left: 400px;">
         <h2>Kyra's Info</h2>
             <p>Name: Kyra Noir</p>
-            <p>Appearance: Kyra has long black fur. She is also missing her left eye. <br>  She is normally wearing a pink flower collar with a heart tag.</p>
-            <p>
+            <p>Appearance: Kyra has long black fur. She also only has her right eye, which is green. <br>  She is normally wearing a pink flower collar with a heart tag.</p>
+            <p>Nature: Kyra is very timid, shy, and loves to hide.</p>
+            <p>Microchipped: Yes</p>
+            <p> WARNING: She will run when chased</p>
         </div>

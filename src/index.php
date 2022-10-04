@@ -10,7 +10,7 @@
     <h1>Elizabethtown College's Pet Profiles</h1>
 </head> 
     
-    `<?PHP require("navbar.php");?>`
+    <?PHP require("navbar.php");?>
 <body>
     
     <div style="width: 30%; float: left; margin-left: 15px;">

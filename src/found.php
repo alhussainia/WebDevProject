@@ -15,7 +15,7 @@
 
     <div>
         <h2> Purpose of this Page: </h2>
-        <p> The purpose of this page is for pet owners to update information on their pets if they go missing to help find missing pets on campus. </p>
+        <p> The purpose of this page is for students to report any found and caught animals on campus.</p>
 
         
         <div>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <h1>Lost and Found </h1>
-</head> 
+</head>  
 
 <body>
      
@@ -20,7 +20,7 @@
         
         <div>
         <h2> Found Pets: </h2>
-        <img src="../imgs/Angel.png" style="height:250px; width:200px;">
+        <img src="../imgs/Angel.png" style="height:250px; width:200px; color: #004B98;">
         <p>Name: Angel Closs <BR>Found: The Dell on 9/18/22</p>
         </div>
 

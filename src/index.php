@@ -2,12 +2,13 @@
 <html lang="en"> 
 
 <head>
-    <title>Elizabethtown College's Pet Profiles</title>
+    <title style="font-size: 100px; color: #004B98;">Elizabethtown College's Pet Profiles</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <h1>Elizabethtown College's Pet Profiles</h1>
+</div>
 </head> 
     
     <?PHP require("navbar.php");?>

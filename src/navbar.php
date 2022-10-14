@@ -7,7 +7,7 @@
             <a class="nav-item nav-link" href="petprofiles.php"> Pet Profiles |</a>
             <a class="nav-item nav-link" href="lost.php"> Lost |</a>
             <a class="nav-item nav-link" href="found.php"> Found |</a>
-            <a class="nav-item nav-link disabled" href="petapplications.php"> Pet Applications |</a>
+            <a class="nav-item nav-link" href="petapplications.php"> Pet Applications |</a>
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </div>

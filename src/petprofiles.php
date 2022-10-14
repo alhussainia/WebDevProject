@@ -14,6 +14,7 @@
      
     <?PHP require("navbar.php");?>
     <h2 style = "text-align:center;"> Pets On Campus</h2>
+    <p style = "text-align:center;"> Here you can see all the pets that have had profiles created so far! </p>
     <h3> Cats </h3>
     </div>
 
@@ -28,6 +29,11 @@
             <img src="../imgs/Spencer.png" style="height:250px; width:200px; display:block; margin:auto;"><p>Spencer</p> 
         </div>
 </div>
+
+<footer>
+    <p style = "background-color: white; padding: 15px; text-align: center; margin-top: 560px;"> Do you want to see your pet on this page? <a class="nav-item nav-link" href="petapplications.php"> Click here </a> to fill out the form! </p>
+</footer>
+
 </body>
 
 

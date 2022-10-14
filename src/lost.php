@@ -13,13 +13,16 @@
      
     <?PHP require("navbar.php");?>
 
-    <div style="width: 25%; float: left; margin-left: 15px;"> 
+    <h2> Purpose of this Page: </h2>
+        <p> The purpose of this page is for students to report any found and caught animals on campus. </p>
+
+    <div> 
         <h2> Lost Pets: </h2>
-        <img src="../imgs/Spencer.png" style="width: 40%;">
+        <img src="../imgs/Spencer.png" style="height:250px; width:200px;">
         <p>Name: Spencer Shreiner <BR>Lost: Brinser Field on 9/22/22</p>
     </div>
 
-    <div style= "width: 50%; float: left; margin-left: 0px;">
+    <div>
         <h2> Lost Your Pet? </h2>
         <form method=post action=students.php>
         Pet First Name: <input name="first_name"><BR/>

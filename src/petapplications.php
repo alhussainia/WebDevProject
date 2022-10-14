@@ -15,10 +15,10 @@
     <h2  style = "text-align: center;"> Interested In Having Your Pet Featured? </h2>
     <h3 style = "text-align: center;"> Complete the application below! </h3>
 
-    <div class = "forms" style="height: 400px;">
+    <div class = "forms" style="height: 400px; color: #004B98;">
     <div class="petform">
     <section class = "forum">
-    <form method = post style="float:right; margin-right:20px">
+    <form method = post style="float:right; margin-right:20px; color: #004B98;">
         Pet Name:<br><br> <input name = "petName" type = "text">
         <br>
         <br>
@@ -33,7 +33,7 @@
     </div>
 
     <div class= "ownerform">
-    <form method = post" style="float:left; margin-left:20px;">
+    <form method = post" style="float:left; margin-left:20px; color: #004B98;">
         Owner's Name: <br><br> <input name = "petName" type = "text">
         <br>
         <br>

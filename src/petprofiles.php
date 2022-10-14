@@ -14,7 +14,7 @@
      
     <?PHP require("navbar.php");?>
     <h2 style = "text-align:center;"> Pets On Campus</h2>
-    <p style = "text-align:center;"> Here you can see all the pets that have had profiles created so far! </p>
+    <p style = "text-align:center; font-size: 18px;"> Here you can see all the pets that have had profiles created so far! </p>
     <h3> Cats </h3>
     </div>
 

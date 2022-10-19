@@ -16,7 +16,12 @@
     
     <div style="width: 30%; float: left; margin-left: 15px; color: #004B98;">
         <h2>About Us</h2>
-            <p>This website was created for students of Elizabethtown College to enter information about their pets, in the form of a profile. This site will be used to keep track of all of the pets that live on campus, in the case of one going missing, so other students can keep a lookout for the missing animal to help find them. This website will be used by any students and faculty of Elizabethtown College to help keep track of any and all animals that are living on campus with students. </p>
+            <p> The Elizabethtown College's Pet Profiles website was created for the students of ETown College and their pets.
+                This website will allow students with an Emotional Support Animal (ESA) or an Assitance Animal (AA) to create
+                a profile for their pet. It will also allow students to post lost or found animals on campus. This website was 
+                made to help the students on campus with ESAs or AAs find their pets faster when they have been lost. Also, 
+                we hope to spread more awareness about these animals, their roles, and how important they are to their owners. 
+            </p>
         </div>
 
     <div style="width: 60%; float: right; margin-right: 15px; color: #004B98;"> 

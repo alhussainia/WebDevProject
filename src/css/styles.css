@@ -1,7 +1,10 @@
 h1 {
-    color: navy;
+    color: #004B98;
     text-align: center;
     font-size: 45px;
+}
+h2 {
+    color: #004B98;
 }
 
 body {
@@ -23,13 +26,11 @@ body {
     text-align: center;
 }
 .petform{
-    /*border: 2px solid navy;*/
     float: left;
     width: 50%;
 }
 
 .ownerform{
-    /*border: 2px solid navy;*/
     float: right;
     width: 50%;
 }

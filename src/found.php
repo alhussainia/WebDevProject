@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <h1>Lost and Found </h1>
+    <h1 style= "text-align: center">Found</h1>
 </head>  
 
 <body>
@@ -14,8 +14,8 @@
     <?PHP require("navbar.php");?>
 
     <div>
-        <h2> Purpose of this Page: </h2>
-        <p> The purpose of this page is for students to report any found and caught animals on campus.</p>
+        <h2 style="text-align: center">Found Pets</h2>
+        <p style="text-align: center; font-size: 18px; color: #004B98;">The purpose of this page is for students to report any found and caught animals on campus.</p>
 
         
         <div>

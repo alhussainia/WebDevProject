@@ -6,15 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <h1>Lost and Found </h1>
+    <h1>Lost</h1>
 </head> 
 
 <body>
      
     <?PHP require("navbar.php");?>
 
-    <h2> Purpose of this Page: </h2>
-        <p>The purpose of this page is for pet owners to update information on their pets if they go missing to help find missing pets on campus.</p>
+    <h2 style="text-align: center">Lost Pets</h2>
+        <p style="text-align: center; font-size: 18px; color: #004B98;">The purpose of this page is for pet owners to update information on their pets if they go missing to help find missing pets on campus.</p>
 
     <div> 
         <h2> Lost Pets: </h2>

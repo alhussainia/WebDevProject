@@ -22,9 +22,12 @@
                 made to help the students on campus with ESAs or AAs find their pets faster when they have been lost. Also, 
                 we hope to spread more awareness about these animals, their roles, and how important they are to their owners. 
             </p>
-        <h2 style= "color: #004B98"> Helpful Links: </h2>
-            <p>Here you can find some links that will tell you more information about SAs, ESAs, and AAs</p>
-            <a href="https://adata.org/guide/service-animals-and-emotional-support-animals"> ADA Service Animals and Emotional Support Animals </a>
+            <br> 
+            <br>
+
+        <h2 style= "color: #004B98"> Useful Links: </h2>
+            <p>Here you can find some links that will tell you more information about SAs, ESAs, and AAs:</p>
+            <a href="https://adata.org/guide/service-animals-and-emotional-support-animals"> ADA Service Animals and Emotional Support Animals </a> <br>
             <a href="https://www.avma.org/resources-tools/animal-health-and-welfare/service-emotional-support-and-therapy-animals"> American Veterinary Medical Association </a>
         </div>
 

@@ -16,6 +16,10 @@
     <h2 style="text-align: center">Lost Pets</h2>
         <p style="text-align: center; font-size: 18px; color: #004B98;">The purpose of this page is for pet owners to update information on their pets if they go missing to help find missing pets on campus.</p>
 
+    
+    <div style= "text-align: center; font-size: 18px; color: #004B98;"> If you have found someone's  pet, click <a class="nav-item nav-link" href="found.php">here</a> to submit a found report.
+
+    </div>  
     <div> 
         <h2> Lost Pets: </h2>
         <img src="../imgs/Spencer.png" style="height:250px; width:200px; color: #004B98;">

@@ -13,10 +13,10 @@
 
 <h1 style="margin-bottom: 50px;">Angel Closs's Profile </h1>
 
-<img src="../imgs/Kyra.jpg" style="width: 45%; display:block; margin:auto;">
+<img src="../imgs/Angel.png" style="width: 45%; display:block; margin:auto;">
 
 <div style="margin-left: 400px;">
-        <h2>Kyra's Info</h2>
+        <h2>Angel's Info</h2>
             <p>Name: Angel Closs</p>
             <p>Appearance: Angel has long black, orange, and white fur and green eyes. <br>  She is normally wearing a dark blue patterned bandana.</p>
             <p>Nature: Angel is very happy and loves people, she will not run if you approach her.</p>

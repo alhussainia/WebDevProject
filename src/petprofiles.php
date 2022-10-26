@@ -20,7 +20,7 @@
 
     <div id ="profiles">
         <div id = "Angel" class="floater">
-            <img src="../imgs/Angel.png" style="height:250px; width:200px; display:block; margin:auto;"> <p>Angel</p>
+            <a href="../src/angel.php"><img src="../imgs/Angel.png" style="height:250px; width:200px; display:block; margin:auto;"> <p>Angel</p>
         </div>
         <div id = "Kyra" class="floater">
             <a href="../src/kyra.php"><img src="../imgs/Kyra.jpg" style="height:250px; width:200px; display:block; margin:auto;"><p>Kyra</p></a>

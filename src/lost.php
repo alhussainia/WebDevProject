@@ -20,7 +20,7 @@
     <div> 
         <h3> Lost Pets: </h3>
         <img src="../imgs/Spencer.png" style="height:250px; width:200px; color: #004B98;">
-        <p>Name: Spencer Shreiner <BR>Lost: Brinser Field on 9/22/22</p>
+        <div>Name: Spencer Shreiner <BR>Lost: Brinser Field on 9/22/22</div>
     </div>
 
     <div>

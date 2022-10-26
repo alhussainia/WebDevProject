@@ -15,7 +15,7 @@
 
 <img src="../imgs/Spencer.png" style="width: 45%; display:block; margin:auto;">
 
-<div style="margin-left: 400px;">
+<div style="margin-center: 0;">
         <h2>Spencer's Info</h2>
             <p>Name: Spencer Shreiner</p>
             <p>Appearance: Spencer has light tan and brown striped short fur and has green eyes. <br>  She is normally wearing a star tag connected to her collar, with her name and information on it.</p>

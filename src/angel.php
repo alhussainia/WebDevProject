@@ -15,7 +15,7 @@
 
 <img src="../imgs/Angel.png" style="width: 45%; display:block; margin:auto;">
 
-<div style="margin-left: 400px;">
+<div style="margin-center: 0;">
         <h2>Angel's Info</h2>
             <p>Name: Angel Closs</p>
             <p>Appearance: Angel has long black, orange, and white fur and green eyes. <br>  She is normally wearing a dark blue patterned bandana.</p>

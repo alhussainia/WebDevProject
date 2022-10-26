@@ -28,6 +28,9 @@
         <div id = "Spencer" class="floater">
         <a href="../src/spencer.php"><img src="../imgs/Spencer.png" style="height:250px; width:200px; display:block; margin:auto;"><p>Spencer</p> 
         </div>
+        <div id = "Moose" class="floater">
+            <a href="../src/moose.php"><img src="../imgs/moose.jpg" style="height:250px; width:200px; display:block; margin:auto;"> <p>Moose</p>
+        </div>
 </div>
 
 <footer>

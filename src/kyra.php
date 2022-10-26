@@ -15,7 +15,7 @@
 
 <img src="../imgs/Kyra.jpg" style="width: 45%; display:block; margin:auto;">
 
-<div style="margin-left: 400px;">
+<div style="margin-center: 0;">
         <h2>Kyra's Info</h2>
             <p>Name: Kyra Noir</p>
             <p>Appearance: Kyra has long black fur. She also only has her right eye, which is green. <br>  She is normally wearing a pink flower collar with a heart tag.</p>

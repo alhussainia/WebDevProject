@@ -12,7 +12,7 @@
 <body>
     
     <?PHP require("navbar.php");?>
-    <h2  style = "text-align: center;"> Interested In Having Your Pet Featured? </h2>
+    <h2> Interested In Having Your Pet Featured? </h2>
     <h3 style = "text-align: center;"> Complete the application below! </h3>
 
     <div class = "forms" style="height: 400px; color: #004B98;">

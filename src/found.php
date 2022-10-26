@@ -15,7 +15,7 @@
 
     <div>
         <h2 style="text-align: center">Found Pets</h2>
-        <p style="text-align: center; font-size: 18px; color: #004B98;">The purpose of this page is for students to report any found and caught animals on campus.</p>
+        <p>The purpose of this page is for students to report any found and caught animals on campus.</p>
 
         
         <div>

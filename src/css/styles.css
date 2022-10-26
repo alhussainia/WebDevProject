@@ -4,6 +4,13 @@ h1 {
     font-size: 45px;
 }
 h2 {
+    text-align: center;
+    color: #004B98;
+}
+
+p{
+    text-align: center; 
+    font-size: 18px;
     color: #004B98;
 }
 

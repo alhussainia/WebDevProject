@@ -13,8 +13,8 @@
     <div>
      
     <?PHP require("navbar.php");?>
-    <h2 style = "text-align:center;"> Pets On Campus</h2>
-    <p style = "text-align:center; font-size: 18px; color: #004B98;"> Here you can see all the pets that have had profiles created so far! </p>
+    <h2> Pets On Campus</h2>
+    <p> Here you can see all the pets that have had profiles created so far! </p>
     <h3> Cats </h3>
     </div>
 

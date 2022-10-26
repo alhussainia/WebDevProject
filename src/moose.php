@@ -20,6 +20,7 @@
             <p>Name: Moose Vanek</p>
             <p>Appearance: Moose has long brown, white, and black fur and brown eyes. <br>  He is normally wearing blue and yellow flowered collar.</p>
             <p>Nature: Moose is very happy and loves people, but gets scared if he is approached too fast.</p>
+            <p>Breed: Border Collie mix</p>
             <p>Microchipped: Yes</p>
             <p> WARNING: He will bite at bicycle wheels. </p>
         </div>

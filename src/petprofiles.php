@@ -31,6 +31,12 @@
         <div id = "Moose" class="floater">
             <a href="../src/moose.php"><img src="../imgs/moose.jpg" style="height:250px; width:200px; display:block; margin:auto;"> <p>Moose</p>
         </div>
+        <div id = "Bubba" class="floater">
+            <a href="../src/bubba.php"><img src="../imgs/bubba.JPEG" style="height:250px; width:200px; display:block; margin:auto;"> <p>Bubba</p>
+        </div>
+        <div id = "Remus" class="floater">
+            <a href="../src/remus.php"><img src="../imgs/remus.JPEG" style="height:250px; width:200px; display:block; margin:auto;"> <p>Remus</p>
+        </div>
 </div>
 
 <footer>

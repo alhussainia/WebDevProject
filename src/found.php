@@ -6,24 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <h1 style= "text-align: center">Found</h1>
 </head>  
 
 <body>
+    <h1>Found</h1>
      
     <?PHP require("navbar.php");?>
 
     <div>
-        <h2 style="text-align: center">Found Pets</h2>
+        <h2>Found Pets</h2>
         <p>The purpose of this page is for students to report any found and caught animals on campus.</p>
-
-        
     </div>
 
         <div>
         <h3> Found Pets: </h3>
         <img src="../imgs/Angel.png" style="height:250px; width:200px; color: #004B98;">
-        <p>Name: Angel Closs <BR>Found: The Dell on 9/18/22</p>
+        <div>Name: Angel Closs <BR>Found: The Dell on 9/18/22</div>
         </div>
 
 

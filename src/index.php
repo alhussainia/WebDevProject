@@ -2,7 +2,6 @@
 <html lang="en"> 
 
 <head>
-    <title style="font-size: 100px; color: #004B98;">Elizabethtown College's Pet Profiles</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">

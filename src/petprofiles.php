@@ -35,12 +35,12 @@
             <a href="../src/bubba.php"><img src="../imgs/bubba.JPEG" style="height:250px; width:200px; display:block; margin:auto;"> <p>Bubba</p>
         </div>
         <div id = "Remus" class="floater">
-            <a href="../src/remus.php"><img src="../imgs/remus.JPEG" style="height:250px; width:200px; display:block; margin:auto;"> <p>Remus</p>
+            <a href="../src/remus.php"><img src="../imgs/remus.JPEG" style="height:250px; width:200px; display:block; margin:auto;"> <p>Remus</p></a>
         </div>
 </div>
 
 <footer>
-    <p> Do you want to see your pet on this page? <a class="nav-item nav-link" href="petapplications.php"> Click here </a> to fill out the form! </p>
+    <p> Do you want to see your pet on this page? <a class="nav-item nav-link" href="petapplications.php">Click here</a> to fill out the form! </p>
 </footer>
 
 </body>

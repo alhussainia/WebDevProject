@@ -1,3 +1,4 @@
+
 h1 {
     color: #004B98;
     text-align: center;
@@ -32,14 +33,10 @@ footer{
     font-size: 20px;
 }
 
-.forum {
-  text-align: center;
-
-}
-
 .forms{
     text-align: center;
 }
+
 .petform{
     float: left;
     width: 50%;
@@ -50,11 +47,6 @@ footer{
     width: 50%;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
 
 .floater{
     float: left;

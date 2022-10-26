@@ -16,18 +16,15 @@
     <h2>Lost Pets</h2>
         <p>The purpose of this page is for pet owners to update information on their pets if they go missing to help find missing pets on campus.</p>
 
-    
-    <div style= "text-align: center; font-size: 18px; color: #004B98;"> If you have found someone's  pet, click <a class="nav-item nav-link" href="found.php">here</a> to submit a found report.
-
     </div>  
     <div> 
-        <h2> Lost Pets: </h2>
+        <h3> Lost Pets: </h3>
         <img src="../imgs/Spencer.png" style="height:250px; width:200px; color: #004B98;">
         <p>Name: Spencer Shreiner <BR>Lost: Brinser Field on 9/22/22</p>
     </div>
 
     <div>
-        <h2> Lost Your Pet? </h2>
+        <h3> Lost Your Pet? </h3>
         <form method=post action=students.php>
         Pet First Name: <input name="first_name"><BR/>
         Pet Last Name: <input name="last_name"><BR/>
@@ -37,3 +34,10 @@
         </form>
 
     </div>
+
+    <footer>
+    <p>If you have found someone's  pet, click <a class="nav-item nav-link" href="found.php">here</a> to submit a found report.</p>
+    </footer>
+
+</body>
+</html>

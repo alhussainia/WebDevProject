@@ -11,12 +11,20 @@ h2 {
 p{
     text-align: center; 
     font-size: 18px;
-    color: #004B98;
+    color:Black;
 }
 
 body {
     background-color: rgb(201, 229, 254);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    background-color: white; 
+    padding: 10px; 
+    text-align: center; 
+    margin-top: 560px; 
+    color: #004B98;
 }
 
 #nav {

@@ -31,7 +31,7 @@
 </div>
 
 <footer>
-    <p style = "background-color: white; padding: 15px; text-align: center; margin-top: 560px; color: #004B98;"> Do you want to see your pet on this page? <a class="nav-item nav-link" href="petapplications.php"> Click here </a> to fill out the form! </p>
+    <p> Do you want to see your pet on this page? <a class="nav-item nav-link" href="petapplications.php"> Click here </a> to fill out the form! </p>
 </footer>
 
 </body>

@@ -17,7 +17,10 @@
         <h2 style="text-align: center">Found Pets</h2>
         <p>The purpose of this page is for students to report any found and caught animals on campus.</p>
 
-        
+        <div style= "text-align: center; font-size: 18px; color: #004B98;"> If you have lost your pet, click <a class="nav-item nav-link" href="lost.php">here</a> to submit a lost report.
+
+    </div>
+
         <div>
         <h2> Found Pets: </h2>
         <img src="../imgs/Angel.png" style="height:250px; width:200px; color: #004B98;">

@@ -40,7 +40,8 @@
         Cell-phone Number:<br><br><textarea name = "number"></textarea>
         <br>
         <br>
-        E-mail<br><br><textarea name = "e-mail"></textarea>
+        <!--E-mail<br><br><label>Email Address</label>-->
+        E-mail<br><br><input type="text" name="email_address" size="20"><mail></mail>
         <br>
         <br>
     </form>

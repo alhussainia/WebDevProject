@@ -45,15 +45,26 @@ footer{
     text-align: center;
 }
 
+.pet_div{
+    float: right;
+    padding-right: 10px;
+}
+
 .petform{
     float: left;
     width: 50%;
+    height:50%;
 }
 
+.owner_div{
+    float: left;
+    padding-left: 10px;    
+}
 .ownerform{
     float: right;
-    width: 100%;
+    width: 50%;
     height: 50%;
+    
 }
 
 
@@ -70,10 +81,4 @@ footer{
 
 .profiles {
     color: orange;
-}
-
-#ownerform {
-    
-    height: 100px;
-    width: 25%;
 }

@@ -17,20 +17,22 @@
     <?PHP require("navbar.php");?>
 </div>
 
-    <h2> Fill out an application today to create a profile for your pet! </h2>
-    <h3 style = "text-align: center;"> Complete the application below! </h3>
+<h2> Fill out an application today to create a profile for your pet! </h2>
+<h3 style = "text-align: center;"> Complete the application below! </h3>
 
-    <div class = "forms" style="height: 400px; color: #004B98;">
+
+<div class = "forms" style="height: 400px; color: #004B98;">
+
     <div class="petform">
+    <div class="pet_div"
     <section class = "forum">
+    <form method="post">
     <!--<form method = post style="float:center; margin-right:20px; color: #004B98;">-->
         Pet Name: <input name = "petName" type = "text">
         <br>
         <!-- Appearance:<br><br><textarea rows = "5" name = "appearance"></textarea> -->
-    <html>  
  
-    <body>
-        <br>
+    <br>
     Pet Color:  
     <select>  
         <option value="Select">Select</option>}
@@ -44,8 +46,6 @@
         <option value="Cream">Cream</option>  
         <option value="Other">Other</option>  
         </select>   
-    </body>  
-    <html> 
         <br>
         <br>
         Personality: <textarea rows = "1" name = "personality"></textarea>
@@ -61,9 +61,6 @@
         Explain:<textarea rows = "1" name = "nature"></textarea>
         <br>
         <br>
-        <html>  
-    <head></head>  
-    <body>
     Species: 
     <select>  
         <option value="Select">Select</option>}
@@ -72,14 +69,9 @@
         <option value="Bird">Bird</option>  
         <option value="Reptile">Reptile</option>  
         <option value="Other">Other</option>  
-        </select>   
-    </body>  
-    <html> 
+    </select>   
     <br> 
     <br>
-    <html>  
-    <head></head>  
-    <body>
     Type of fur: 
     <select>  
         <option value="Select">Select</option>}
@@ -88,10 +80,8 @@
         <option value="Curly">Curly</option>  
         <option value="Hairless">Hairless</option>  
         <option value="Other">Other</option>  
-        </select>  
+    </select>  
         <br>
-    </body>  
-    <html> 
         <br>
         Pet DOB:<input type="date" id="start" name="trip-start" value="2022-10-30" min="1990-01-01" max="2022-12-31">
         <br>
@@ -99,11 +89,11 @@
         Breed: <textarea rows = "1" name = "nature"></textarea>
     <br>
     <br>
-    </form>
     </div>
-    </div>
+</div>
     
-    <div id= "ownerform" style="padding-top:-500px;">
+    <div class= "ownerform">
+    <div class=owner_div>
     <!--<form method = post style="align: right; margin-right:20px; color: #004B98;">-->
         Owner's Name:<br> <input name = "petName" type = "text">
         <br>
@@ -123,7 +113,7 @@
     </div>
     </div>
 </div>
-    <div id = "submitbtn" style= "display: text-align: center;">
+<div id = "submitbtn" style= "text-align: center;">
     <button type="button">Submit</button>
 </div>
     <!--<div style="text-align: center; align: center;"><input type = "submit" value = "Submit"></div>-->

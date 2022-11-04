@@ -22,18 +22,48 @@
         Pet Name:<br><br> <input name = "petName" type = "text">
         <br>
         <br>
-        Appearance:<br><br><textarea rows = "5" name = "appearance"></textarea>
+        <!-- Appearance:<br><br><textarea rows = "5" name = "appearance"></textarea> -->
+    <html>  
+    <head></head>  
+    <body>
+    Pet Color:  
+    <br>
+    <br>
+    <select>  
+        <option value="Select">Select</option>}
+        <option value="Black">Black</option> 
+        <option value="White">White</option>  
+        <option value="Orange">Orange</option>  
+        <option value="Grey">Grey</option>  
+        <option value="Brown">Brown</option>  
+        <option value="Tan">Tan</option>  
+        <option value="Multi-color">Multi-colored</option>  
+        <option value="Cream">Cream</option>  
+        <option value="Other">Other</option>  
+        </select>   
+    </body>  
+    <html> 
         <br>
         <br>
-        Nature:<br><br><textarea rows = "5" name = "nature"></textarea>
+        Nature:<br><br><textarea rows = "3" name = "nature"></textarea>
         <br>
         <br>
-        Microchipped: <input name = "chipped" type = "checkbox" value = 1>
+        Microchipped: <input name = "chipped" type = "checkbox" value = 1>Yes<input name = "no" type = "checkbox" value = 1>No
+        <br>
+        Chip ID#:<textarea rows = "1" name = "nature"></textarea>
+        <br>
+        <br>
+        <br>
+        Animal Warnings?<input name = "yes" type = "checkbox" value = 1>Yes<input name = "no" type = "checkbox" value = 1>No
+        <br>
+        Explain:<textarea rows = "1" name = "nature"></textarea>
+        <br>
+        <br>
     </form>
     </div>
 
     <div class= "ownerform">
-    <form method = post" style="float:left; margin-left:20px; color: #004B98;">
+    <form method = post style="float:left; margin-left:20px; color: #004B98;">
         Owner's Name: <br><br> <input name = "petName" type = "text">
         <br>
         <br>
@@ -42,7 +72,7 @@
         <br>
         <br>
         <!--E-mail<br><br><label>Email Address</label>-->
-        E-mail<br><br><input type="text" name="email_address" size="20"><mail></mail>
+        E-mail:<br><br><input type="text" name="email_address" size="20"><mail></mail>
         <br>
         <br>
     </form>

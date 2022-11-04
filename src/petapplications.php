@@ -6,12 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <h1>Pet Applications</h1>
+    
 </head> 
 
 <body>
-    
+
+<div>
+    <a href=index.php><img src="../imgs/pet_profiles_no_background.png" alt="logo" id="logo" style="float:left; position: absolute; margin-top: -20px; height: 150px; width: 200px;"><a>
+    <h1>Pet Applications</h1>
     <?PHP require("navbar.php");?>
+</div>
+
     <h2> Interested In Having Your Pet Featured? </h2>
     <h3 style = "text-align: center;"> Complete the application below! </h3>
 

@@ -6,13 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <h1>Pet Profiles </h1>
 </head> 
 
 <body>
+    
+<div>
+    <a href=index.php><img src="../imgs/pet_profiles_no_background.png" alt="logo" id="logo" style="float:left; position: absolute; margin-top: -20px; height: 150px; width: 200px;"><a>
+    <h1>Pet Profiles </h1>
+    <?PHP require("navbar.php");?>
+</div>
+
 <div>
     <div> 
-    <?PHP require("navbar.php");?>
     <h2> Pets On Campus</h2>
     <p> Here you can see all the pets that have had profiles created so far! </p>
     

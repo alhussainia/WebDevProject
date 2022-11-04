@@ -9,6 +9,14 @@ h2 {
     color: #004B98;
 }
 
+.logo{
+    float:left; 
+    position: absolute; 
+    margin-top: -20px; 
+    height: 150px; 
+    width: 200px;
+}
+
 p{
     text-align: center; 
     font-size: 18px;

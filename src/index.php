@@ -6,14 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <h1>Elizabethtown College's Pet Profiles</h1>
-</div>
 </head> 
     
-    <?PHP require("navbar.php");?>
 <body>
-    
-    <div style="width: 30%; float: left; margin-left: 15px;">
+
+    <div>
+    <a href=index.php><img src="../imgs/pet_profiles_no_background.png" alt="logo" id="logo" style="float:left; position: absolute; margin-top: -20px; height: 150px; width: 200px;"><a>
+    <h1>Elizabethtown College's Pet Profiles</h1>
+    <?PHP require("navbar.php");?>
+    </div>
+
+    <div style="width: 30%; float: left; margin-left: 50px; padding-top: 50px;">
         <h2> About Us: </h2>
             <p> The Elizabethtown College's Pet Profiles website was created for the students of ETown College and their pets.
                 This website will allow students with a Service Animal (SA), Emotional Support Animal (ESA), or an Assitance Animal (AA) to create
@@ -27,7 +30,7 @@
             <a href="https://www.avma.org/resources-tools/animal-health-and-welfare/service-emotional-support-and-therapy-animals"> American Veterinary Medical Association </a>
         </div>
 
-    <div style="width: 60%; float: right; margin-right: 15px; color: #004B98;"> 
+    <div style="width: 60%; float: right; margin-right: 15px; color: #004B98; padding-top: 50px;"> 
         <h2> Pet Spotlight of the Week: </h2>
         <img src="../imgs/Kyra's Pet Spotlight.jpg" style="width: 100%;">
     </div>

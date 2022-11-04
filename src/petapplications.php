@@ -17,23 +17,21 @@
     <?PHP require("navbar.php");?>
 </div>
 
-    <h2> Interested In Having Your Pet Featured? </h2>
+    <h2> Fill out an application today to create a profile for your pet! </h2>
     <h3 style = "text-align: center;"> Complete the application below! </h3>
 
     <div class = "forms" style="height: 400px; color: #004B98;">
     <div class="petform">
     <section class = "forum">
     <!--<form method = post style="float:center; margin-right:20px; color: #004B98;">-->
-        Pet Name:<br> <input name = "petName" type = "text">
+        Pet Name: <input name = "petName" type = "text">
         <br>
         <!-- Appearance:<br><br><textarea rows = "5" name = "appearance"></textarea> -->
     <html>  
-    <head></head>  
+ 
     <body>
         <br>
     Pet Color:  
-    <br>
-
     <select>  
         <option value="Select">Select</option>}
         <option value="Black">Black</option> 
@@ -50,7 +48,7 @@
     <html> 
         <br>
         <br>
-        Nature:<br><textarea rows = "3" name = "nature"></textarea>
+        Personality: <textarea rows = "1" name = "personality"></textarea>
         <br>
         <br>
         Microchipped: <input name = "chipped" type = "checkbox" value = 1>Yes<input name = "no" type = "checkbox" value = 1>No
@@ -58,22 +56,15 @@
         Chip ID#:<textarea rows = "1" name = "nature"></textarea>
         <br>
         <br>
-        <br>
         Animal Warnings?<input name = "yes" type = "checkbox" value = 1>Yes<input name = "no" type = "checkbox" value = 1>No
         <br>
         Explain:<textarea rows = "1" name = "nature"></textarea>
         <br>
         <br>
-    </form>
-    </div>
-
-    <div class = "petinfo">
-    <!--<form method = post style="float:center; margin-right:800px; color: #004B98;">-->
-    <html>  
+        <html>  
     <head></head>  
     <body>
-    Species:  
-    <br>
+    Species: 
     <select>  
         <option value="Select">Select</option>}
         <option value="Dog">Dog</option> 
@@ -89,8 +80,7 @@
     <html>  
     <head></head>  
     <body>
-    Type of fur:  
-    <br>
+    Type of fur: 
     <select>  
         <option value="Select">Select</option>}
         <option value="Short">Short</option> 
@@ -100,18 +90,21 @@
         <option value="Other">Other</option>  
         </select>  
         <br>
-        <br> 
     </body>  
     <html> 
         <br>
         Pet DOB:<input type="date" id="start" name="trip-start" value="2022-10-30" min="1990-01-01" max="2022-12-31">
-    </div>
+        <br>
+        <br>
+        Breed: <textarea rows = "1" name = "nature"></textarea>
     <br>
-
-
-
-    <div class= "ownerform">
-    <!--<form method = post style="float:center; margin-left:20px; color: #004B98;">-->
+    <br>
+    </form>
+    </div>
+    </div>
+    
+    <div id= "ownerform" style="padding-top:-500px;">
+    <!--<form method = post style="align: right; margin-right:20px; color: #004B98;">-->
         Owner's Name:<br> <input name = "petName" type = "text">
         <br>
         <br>
@@ -129,7 +122,11 @@
     </form>
     </div>
     </div>
-    <div style="text-align: center;"><input type = "submit" value = "Submit"></div>
+</div>
+    <div id = "submitbtn" style= "display: text-align: center;">
+    <button type="button">Submit</button>
+</div>
+    <!--<div style="text-align: center; align: center;"><input type = "submit" value = "Submit"></div>-->
     </section>
 </body>
 </html>

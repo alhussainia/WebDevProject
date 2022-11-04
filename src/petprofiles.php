@@ -21,10 +21,10 @@
     <h2> Pets On Campus</h2>
     <p> Here you can see all the pets that have had profiles created so far! </p>
     
-    <h3> Cats </h3>
+    <h3> Cats: </h3>
     </div>
 
-     <div id ="profiles">
+     <div class="floater" display= "block" id ="profiles" style = "text-align: left; position: absolute;">
         <div id = "Angel" class="floater">
             <a href="../src/angel.php"><img src="../imgs/Angel.png" style="height:250px; width:200px; display:block; margin:auto;"> <p>Angel</p>
         </div>
@@ -35,9 +35,8 @@
         <a href="../src/spencer.php"><img src="../imgs/Spencer.png" style="height:250px; width:200px; display:block; margin:auto;"><p>Spencer</p></a>
         </div>
     </div>   
-
-    <div class="floater" style = "text-align: left">
-        <h3>Dogs</h3>
+    <div class="floater" style = "text-align: left; position: absolute; padding-top: 350px;">
+        <h3>Dogs:</h3>
 
         
         <div id = "Moose" class="floater">

@@ -9,9 +9,12 @@
 </head>  
 
 <body>
+
+<div>
+    <a href=index.php><img src="../imgs/pet_profiles_no_background.png" alt="logo" id="logo" style="float:left; position: absolute; margin-top: -20px; height: 150px; width: 200px;"><a>
     <h1>Found</h1>
-     
     <?PHP require("navbar.php");?>
+</div>
 
     <div>
         <h2>Found Pets</h2>

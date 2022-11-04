@@ -10,10 +10,11 @@
 </head> 
 
 <body>
-
-    <h1>Lost</h1>   
-     
+<div>
+    <a href=index.php><img src="../imgs/pet_profiles_no_background.png" alt="logo" id="logo" style="float:left; position: absolute; margin-top: -20px; height: 150px; width: 200px;"><a>
+    <h1>Lost</h1>
     <?PHP require("navbar.php");?>
+</div>
 
     <h2>Lost Pets</h2>
         <p>The purpose of this page is for pet owners to update information on their pets if they go missing to help find missing pets on campus.</p>

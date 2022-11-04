@@ -56,6 +56,9 @@ footer{
 }
 
 .id {
-    float: left; 
-    color: purple;
+    color: blue;
+}
+
+.profiles {
+    color: orange;
 }

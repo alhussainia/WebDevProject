@@ -37,7 +37,8 @@
         Owner's Name: <br><br> <input name = "petName" type = "text">
         <br>
         <br>
-        Cell-phone Number:<br><br><textarea name = "number"></textarea>
+        <!--Cell-phone Number:<br><br><textarea name = "number"></textarea>-->
+        Cell Phone Number:<br><br><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
         <br>
         <br>
         <!--E-mail<br><br><label>Email Address</label>-->

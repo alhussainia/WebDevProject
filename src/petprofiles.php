@@ -15,6 +15,7 @@
     <?PHP require("navbar.php");?>
     <h2> Pets On Campus</h2>
     <p> Here you can see all the pets that have had profiles created so far! </p>
+    
     <h3> Cats </h3>
     </div>
 
@@ -28,8 +29,7 @@
         <div id = "Spencer" class="floater">
         <a href="../src/spencer.php"><img src="../imgs/Spencer.png" style="height:250px; width:200px; display:block; margin:auto;"><p>Spencer</p></a>
         </div>
-        
-    </div>  
+    </div>   
 
     <div class="floater" style = "text-align: left">
         <h3>Dogs</h3>

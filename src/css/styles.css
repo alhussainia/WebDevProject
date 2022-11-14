@@ -42,31 +42,53 @@ footer{
 }
 
 .forms{
-    text-align: center;
+    height: 25px;
+    color: #004B98;
 }
 
 .pet_div{
     float: right;
-    padding-right: 10px;
+    padding-right: 160px;
 }
 
 .petform{
     float: left;
     width: 50%;
     height:50%;
+    text-align: left;
+}
+
+.animal_desc {
+    float: center; 
+    padding-right: 100px;
+    
+}
+
+.animaldesc {
+    float: right; 
+    width: 57%;
+    height:25%;
+    text-align: left;
 }
 
 .owner_div{
     float: left;
-    padding-left: 10px;    
+    padding-left: 160px;    
 }
+
 .ownerform{
     float: right;
     width: 50%;
     height: 50%;
+    text-align: left;
     
 }
 
+.submit_btn {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .floater{

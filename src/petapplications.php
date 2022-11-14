@@ -21,13 +21,14 @@
 <h3 style = "text-align: center;"> Complete the application below! </h3>
 
 
-<div class = "forms" style="height: 400px; color: #004B98;">
+<div class = "forms"> <!--style="height: 25px; color: #004B98;">-->
 
     <div class="petform">
     <div class="pet_div"
     <section class = "forum">
     <form method="post">
     <!--<form method = post style="float:center; margin-right:20px; color: #004B98;">-->
+        <br>
         Pet Name: <input name = "petName" type = "text">
         <br>
         <!-- Appearance:<br><br><textarea rows = "5" name = "appearance"></textarea> -->
@@ -53,14 +54,47 @@
         <br>
         Microchipped: <input name = "chipped" type = "checkbox" value = 1>Yes<input name = "no" type = "checkbox" value = 1>No
         <br>
-        Chip ID#:<textarea rows = "1" name = "nature"></textarea>
+        Chip ID#: <textarea rows = "1" name = "nature"></textarea>
         <br>
         <br>
         Animal Warnings?<input name = "yes" type = "checkbox" value = 1>Yes<input name = "no" type = "checkbox" value = 1>No
         <br>
-        Explain:<textarea rows = "1" name = "nature"></textarea>
+        Explain: <textarea rows = "1" name = "nature"></textarea>
         <br>
         <br>
+   <!--Species: 
+    <select>  
+        <option value="Select">Select</option>}
+        <option value="Dog">Dog</option> 
+        <option value="Cat">Cat</option>  
+        <option value="Bird">Bird</option>  
+        <option value="Reptile">Reptile</option>  
+        <option value="Other">Other</option>  
+    </select>   
+    <br> 
+    <br>
+    Type of fur: 
+    <select>  
+        <option value="Select">Select</option>}
+        <option value="Short">Short</option> 
+        <option value="Long">Long</option>  
+        <option value="Curly">Curly</option>  
+        <option value="Hairless">Hairless</option>  
+        <option value="Other">Other</option>  
+    </select>  
+        <br>
+        <br>
+        Pet DOB: <input type="date" id="start" name="trip-start" value="2022-10-30" min="1990-01-01" max="2022-12-31">
+        <br>
+        <br>
+        Breed: <textarea rows = "1" name = "nature"></textarea>
+    <br>
+    <br> -->
+    </div>
+</div>
+
+    <div class="animaldesc">
+    <div class=animal_desc>
     Species: 
     <select>  
         <option value="Select">Select</option>}
@@ -83,41 +117,50 @@
     </select>  
         <br>
         <br>
-        Pet DOB:<input type="date" id="start" name="trip-start" value="2022-10-30" min="1990-01-01" max="2022-12-31">
+        Pet DOB: <input type="date" id="start" name="trip-start" value="2022-10-30" min="1990-01-01" max="2022-12-31">
         <br>
         <br>
         Breed: <textarea rows = "1" name = "nature"></textarea>
-    <br>
-    <br>
     </div>
 </div>
-    
+
+
     <div class= "ownerform">
     <div class=owner_div>
     <!--<form method = post style="align: right; margin-right:20px; color: #004B98;">-->
-        Owner's Name:<br> <input name = "petName" type = "text">
+        Owner's Name: <input name = "petName" type = "text">
         <br>
         <br>
         <!--Cell-phone Number:<br><br><textarea name = "number"></textarea>-->
-        Cell Phone Number:<br><input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        Cell Phone Number: <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
         <br>
         <br>
         <!--E-mail<br><br><label>Email Address</label>-->
-        E-mail:<br><input type="text" name="email_address" size="20"><mail></mail>
+        E-mail: <input type="text" name="email_address" size="20"><mail></mail>
         <br>
         <br>
-        Address:<br> <textarea rows = "2" name = "nature"></textarea>
+        Address: <textarea rows = "2" name = "nature"></textarea>
+        <br>
+        <br>
+        Do you live on campus? <input name = "yes" type = "checkbox" value = 1>Yes<input name = "no" type = "checkbox" value = 1>No
+        <br>
+        Building: <textarea rows = "1" name = "nature"></textarea>
         <br>
         <br>
     </form>
     </div>
     </div>
 </div>
-<br>
-<div id = "submitbtn" style= "text-align: center;">
-    <button type="button">Submit</button>
-</div>
+
+
+<!--<div class = "submitbtn" style= "text-align: center; align: center;"> -->
+<div>
+<input value="Submit" title="Submit" type="submit" id="submit_btn">
+<!--<div class = submit_btn> style= "text-align: center; align: center;">-->
+    <!--<button type="button">Submit</button>-->
     <!--<div style="text-align: center; align: center;"><input type = "submit" value = "Submit"></div>-->
+</div>
     </section>
+
 </body>
 </html>

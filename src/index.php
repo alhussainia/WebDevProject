@@ -26,8 +26,10 @@
             </p>
         <h2> Helpful Links: </h2>
             <p>Here you can find some links that will tell you more information about SAs, ESAs, and AAs</p>
-            <a href="https://adata.org/guide/service-animals-and-emotional-support-animals"> ADA Service Animals and Emotional Support Animals </a>
-            <a href="https://www.avma.org/resources-tools/animal-health-and-welfare/service-emotional-support-and-therapy-animals"> American Veterinary Medical Association </a>
+            <ul>
+                <li><a href="https://adata.org/guide/service-animals-and-emotional-support-animals"> ADA Service Animals and Emotional Support Animals </a></li>
+                <li><a href="https://www.avma.org/resources-tools/animal-health-and-welfare/service-emotional-support-and-therapy-animals"> American Veterinary Medical Association </a></li>
+            </ul>
         </div>
 
     <div style="width: 60%; float: right; margin-right: 15px; color: #004B98; padding-top: 50px;"> 

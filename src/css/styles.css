@@ -95,6 +95,8 @@ footer{
     float: left;
     text-align: center;
     padding: 20px;
+    border: 10px;
+    border-color: hot pink
 }
 
 .id {

@@ -1,6 +1,7 @@
 
 h1 {
     color: #004B98;
+    margin-right: 215px;
     text-align: center;
     font-size: 45px;
 }
@@ -86,8 +87,9 @@ footer{
 
 .submit_btn {
     width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    margin-top: 500px;
+    margin-left: 710px;
 }
 
 
@@ -95,8 +97,7 @@ footer{
     float: left;
     text-align: center;
     padding: 20px;
-    border: 10px;
-    border-color: hot pink
+
 }
 
 .id {

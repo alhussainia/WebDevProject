@@ -155,7 +155,7 @@
 
 <!--<div class = "submitbtn" style= "text-align: center; align: center;"> -->
 <div>
-<input value="Submit" title="Submit" type="submit" id="submit_btn">
+<input value="Submit" title="Submit" type="submit" id="submit_btn" class="submit_btn">
 <!--<div class = submit_btn> style= "text-align: center; align: center;">-->
     <!--<button type="button">Submit</button>-->
     <!--<div style="text-align: center; align: center;"><input type = "submit" value = "Submit"></div>-->

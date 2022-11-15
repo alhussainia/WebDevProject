@@ -33,10 +33,17 @@
         </div>
 
     <div style="width: 60%; float: right; margin-right: 15px; color: #004B98; padding-top: 50px;"> 
-        <h2> Pet Spotlight of the Week: </h2>
-        <img src="../imgs/Kyra's Pet Spotlight.jpg" style="width: 100%;">
+        <h2> Pet Spotlight: </h2>
+        <div style="background-color: #bed2fe; border: 10px solid #004B98;">
+        <?PHP 
+        echo "<p id='petName' style='font-size: 20px'>Pet's Name: </p>";
+        echo "<p id='petOwner' style='font-size: 20px'>Owner: </p>";
+        echo "<img id='petImage' style='margin-left: 340px; height:250px;'>";
+        echo "<p id='petFact' style='font-size: 20px; padding-left:100px; padding-right:100px;'>Fun Fact: </p>";
+        ?>
+        </div>
     </div>
-    
+    <script src="js/index_functions.js"></script>
 
 </body>
 </html>

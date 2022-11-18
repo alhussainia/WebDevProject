@@ -12,7 +12,7 @@
 <body>
 
 <div>
-    <a href=index.php><img src="../imgs/pet_profiles_no_background.png" alt="logo" id="logo" style="float:left; position: relative; margin-top: -20px; height: 150px; width: 200px;"><a>
+<a href=index.php><img src="../imgs/new_pet_logo-removebg.png" alt="logo" id="logo" style="float:left; position: rleative; margin-top: -20px; height: 150px; width: 200px;"><a>
     <h1>Pet Applications</h1>
     <?PHP require("navbar.php");?>
 </div>

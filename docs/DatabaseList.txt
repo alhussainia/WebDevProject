@@ -34,11 +34,11 @@ Pet Profiles:
     petWarning
         VARCHAR(125)
     ownerFirst
-        VARCHAR(15)
+        VARCHAR(45)
     ownerLast
-        VARCHAR(25)
+        VARCHAR(45)
     ownerCell
-        INT(z15)
+        INT
     ownerEmail
         VARCHAR(45)
     lostPic

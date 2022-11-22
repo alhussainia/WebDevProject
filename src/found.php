@@ -32,10 +32,10 @@
         <div>
         <h3> Did you find a pet? </h3>
         <form method=post action=students.php>
-        Pet First Name: <input name="first_name"><BR/>
-        Pet Description: <input name="description"><BR/>
+        Pet's Name: <input name="lostPetName"><BR/>
+        Pet's Description: <input name="lostPetDescription"><BR/>
         Date Found: <input name="date"><BR/>
-        Location Found:  <input name="location"><BR/>
+        Location Found:  <input name="locationFound"><BR/>
         <input type="submit" value="Submit">
         </form>
 

@@ -29,10 +29,10 @@
     <div>
         <h3> Lost Your Pet? </h3>
         <form method=post action=students.php>
-        Pet First Name: <input name="first_name"><BR/>
-        Pet Last Name: <input name="last_name"><BR/>
-        Date Missing: <input name="date"><BR/>
-        Last Seen Here: <input name="last_seen"><BR/>
+        Pet's Name: <input name="lostPetName" type="text"><BR/>
+        Pet's Last Name: <input name="lostPetLastname" type="text"><BR/>
+        Date Missing: <input name="missingDate" type = "date"><BR/>
+        Last Seen Here: <input name="lastSeen" type="text"><BR/>
         <input type="submit" value="Submit">
         </form>
 

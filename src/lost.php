@@ -31,8 +31,10 @@
         <form method=post action=students.php>
         Pet's Name: <input name="lostPetName" type="text"><BR/>
         Pet's Last Name: <input name="lostPetLastname" type="text"><BR/>
-        Date Missing: <input name="missingDate" type = "date"><BR/>
+        Date Missing: <input name="missingDate" type = "text"><BR/>
         Last Seen Here: <input name="lastSeen" type="text"><BR/>
+        Picture of Pet: <input type="file" id="lostPic" name="lostPic"
+       accept="image/png, image/jpeg, image/heic"><BR/>
         <input type="submit" value="Submit">
         </form>
 

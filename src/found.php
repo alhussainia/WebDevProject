@@ -34,8 +34,10 @@
         <form method=post action=students.php>
         Pet's Name: <input name="foundPetName" type="text"><BR/>
         Pet's Description: <input name="foundPetDescription" type="text"><BR/>
-        Date Found: <input name="foundDate" type="date"><BR/>
+        Date Found: <input name="foundDate" type="text"><BR/>
         Location Found:  <input name="locationFound" type="text"><BR/>
+        Picture of Pet: <input type="file" id="foundPic" name="foundPic"
+       accept="image/png, image/jpeg, image/heic"><BR/>
         <input type="submit" value="Submit">
         </form>
 

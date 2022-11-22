@@ -25,12 +25,12 @@
     Owner's First Name: <input name="ownerFirst" type="text"><BR/>
     Owner's Last Name: <input name="ownerLast" type="text"><BR/>
     Cellphone Number: <input name="ownerCell" type="tel"><BR/>
-    E-mail: <input name="ownerEmail" type="email"><BR/>
+    E-mail: <input name="ownerEmail" type="text"><BR/>
 
     <h3> Pet: </h3>
     Pet Name: <input name="petName" type="text"><BR/>
     Pet Species: <input name="petSpecies" type="text"><BR/>
-    Pet Date of Birth: <input name="petBirthday" type="date"><BR/>
+    Pet Date of Birth: <input name="petBirthday" type="text"><BR/>
     Pet Breed: <input name="petBreed" type="text"><BR/>
     Pet Color: <select name="petColor">
     <option value = "">--Select--</option>
@@ -64,6 +64,9 @@
         <label for="chipChoice1">Yes</label><br>
     <input type="radio" name = "petChip" id="chipChoice2">
         <label for="chipChoice2">No</label><br>
-    Pet Warnings (Ex. Bites when scared): <input name="petWarning" type="text"><BR/>
-    <input type="submit" value="Submit">
+    Pet Warnings: <input name="petWarning" type="text" placeholder="Ex. Bites when scared"><BR/>
+    Pet Picture: <input type="file" id="lostPic" name="lostPic"
+       accept="image/png, image/jpeg, image/heic"><BR/>
+
+       <input type="submit" value="Submit">
 </form>

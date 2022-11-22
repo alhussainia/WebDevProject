@@ -38,6 +38,12 @@ Pet Profiles:
     ownerLast
         VARCHAR(25)
     ownerCell
-        VARCHAR(15)
+        INT(z15)
     ownerEmail
         VARCHAR(45)
+    lostPic
+        BLOB
+    foundPic
+        BLOB
+    petPic 
+        BLOB

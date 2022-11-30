@@ -50,8 +50,25 @@
         </div>
     </div>
 
+<div class="floater" style = "text-align: left; position: absolute; margin-top: 700px;">       
+<h3>Other Pets:</h3>
 
-    <footer>
+<?php
+require_once("functions/database_functions.php");    
+$pdo = connect_to_db();
+$pets = $pdo->query("SELECT * FROM petProfile;");
+
+foreach($pets as $pet) {
+    echo "<a href='pets/pet.php?id=".$pet["petID"]."'>";
+    echo "<div class='floater'>";
+    echo '<img src="upload/'.$pet["petPic"].'" style="height:250px; width:200px; display:block;">';
+    echo "<p>".$pet["petName"]."</p>";
+    echo "</div></a>";
+}
+?>
+<div name="spacer" style="height:100px; width:100%;" class="floater"></div>
+</div>
+    <footer style="position:fixed; bottom:0; width: 100%;">
         <p> Do you want to see your pet on this page? <a class="nav-item nav-link" href="petapplications.php">Click here</a> to fill out the form! </p>
     </footer>
 </div>

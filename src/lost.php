@@ -15,20 +15,29 @@
     <h1>Lost</h1>
     <?PHP require("navbar.php");?>
 </div>
-
     <h2>Lost Pets</h2>
         <p>The purpose of this page is for pet owners to update information on their pets if they go missing to help find missing pets on campus.</p>
-
     </div>  
-    <div> 
+
+    <div>
         <h3> Lost Pets: </h3>
-        <img src="../imgs/Spencer.png" style="height:250px; width:200px; color: #004B98;">
-        <div>Name: Spencer Shreiner <BR>Lost: Brinser Field on 9/22/22</div>
-    </div>
+        </div>
+
+<?PHP
+require_once("functions/database_functions.php");    
+$pdo = connect_to_db();
+$pets = $pdo->query("SELECT * FROM lostPet;");
+
+foreach($pets as $pet) {
+    echo '<img src="upload/'.$pet["lostPic"].'" style="height:250px; width:200px; color: #004B98;">';
+    echo '<div>Name: '.$pet["lostPetName"].' '.$pet["lostPetLastname"].' <BR>Lost: '.$pet["lastSeen"].' on '.$pet["missingDate"].'</div>';
+}
+?>
 
     <div>
         <h3> Lost Your Pet? </h3>
-        <form method=post action=students.php>
+        <form method="POST" action="functions/process_form.php" enctype="multipart/form-data">
+        <input type="hidden" name="formType" value="lost">
         Pet's Name: <input name="lostPetName" type="text"><BR/>
         Pet's Last Name: <input name="lostPetLastname" type="text"><BR/>
         Date Missing: <input name="missingDate" type = "text"><BR/>

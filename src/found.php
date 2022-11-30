@@ -23,15 +23,23 @@
 
         <div>
         <h3> Found Pets: </h3>
-        <img src="../imgs/Angel.png" style="height:250px; width:200px; color: #004B98;">
-        <div>Name: Angel Closs <BR>Found: The Dell on 9/18/22</div>
         </div>
 
+<?PHP
+require_once("functions/database_functions.php");    
+$pdo = connect_to_db();
+$pets = $pdo->query("SELECT * FROM foundPet;");
 
+foreach($pets as $pet) {
+    echo '<img src="upload/'.$pet["foundPic"].'" style="height:250px; width:200px; color: #004B98;">';
+    echo '<div>Name: '.$pet["foundPetName"].' <BR>Found: '.$pet["locationFound"].' on '.$pet["foundDate"].'</div>';
+}
+?>
     
         <div>
         <h3> Did you find a pet? </h3>
-        <form method=post action=students.php>
+        <form method="POST" action="functions/process_form.php" enctype="multipart/form-data">
+        <input type="hidden" name="formType" value="found">
         Pet's Name: <input name="foundPetName" type="text"><BR/>
         Pet's Description: <input name="foundPetDescription" type="text"><BR/>
         Date Found: <input name="foundDate" type="text"><BR/>

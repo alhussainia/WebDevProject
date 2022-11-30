@@ -20,7 +20,8 @@
 
 <h2> Fill out an application today to create a profile for your pet! </h2>
 <h3 style = "text-align: center;"> Complete the application below! </h3>
-<form method="post" id="surveyForm">
+<form id="surveyForm" method="POST" action="functions/process_form.php" enctype="multipart/form-data">
+    <input hidden="hidden" name="formType" value="application">
     <h3> Owner: </h3>
     Owner's First Name: <input name="ownerFirst" type="text"><BR/>
     Owner's Last Name: <input name="ownerLast" type="text"><BR/>
@@ -60,12 +61,12 @@
     </select><br/>
     Pet Personality: <input name="petPersonality" type="text"><BR/>
     Is your pet microchipped?</br>
-    <input type="radio" name = "petChip" id="chipChoice1">
+    <input type="radio" name = "petChip" id="chipChoice1" value="Yes">
         <label for="chipChoice1">Yes</label><br>
-    <input type="radio" name = "petChip" id="chipChoice2">
+    <input type="radio" name = "petChip" id="chipChoice2" value="No">
         <label for="chipChoice2">No</label><br>
     Pet Warnings: <input name="petWarning" type="text" placeholder="Ex. Bites when scared"><BR/>
-    Pet Picture: <input type="file" id="lostPic" name="lostPic"
+    Pet Picture: <input type="file" id="petPic" name="petPic"
        accept="image/png, image/jpeg, image/heic"><BR/>
 
        <input type="submit" value="Submit">

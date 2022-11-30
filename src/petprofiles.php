@@ -62,7 +62,7 @@ foreach($pets as $pet) {
     echo "<a href='pets/pet.php?id=".$pet["petID"]."'>";
     echo "<div class='floater'>";
     echo '<img src="upload/'.$pet["petPic"].'" style="height:250px; width:200px; display:block;">';
-    echo "<p>".$pet["petName"]."</p>";
+    echo "<p><u>".$pet["petName"]."</u></p>";
     echo "</div></a>";
 }
 ?>

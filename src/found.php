@@ -31,12 +31,14 @@ $pdo = connect_to_db();
 $pets = $pdo->query("SELECT * FROM foundPet;");
 
 foreach($pets as $pet) {
+    echo "<div class='floater' style='text-align: center'>";
     echo '<img src="upload/'.$pet["foundPic"].'" style="height:250px; width:200px; color: #004B98;">';
-    echo '<div>Name: '.$pet["foundPetName"].' <BR>Found: '.$pet["locationFound"].' on '.$pet["foundDate"].'</div>';
+    echo '<div><strong>Name:</strong> '.$pet["foundPetName"].'<br> <strong>Description:</strong> '.$pet["foundPetDescription"].' <br> <strong>Location Found:</strong> '.$pet["locationFound"].'<br> <strong>Date Found:</strong>'.$pet["foundDate"].'</div>';
+    echo "</div>";
 }
 ?>
     
-        <div>
+        <div style="text-align:left;  position: absolute; bottom: 10px; width: 50%;">
         <h3> Did you find a pet? </h3>
         <form method="POST" action="functions/process_form.php" enctype="multipart/form-data">
         <input type="hidden" name="formType" value="found">

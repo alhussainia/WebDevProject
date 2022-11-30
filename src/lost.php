@@ -24,17 +24,21 @@
         </div>
 
 <?PHP
+
 require_once("functions/database_functions.php");    
 $pdo = connect_to_db();
 $pets = $pdo->query("SELECT * FROM lostPet;");
 
 foreach($pets as $pet) {
-    echo '<img src="upload/'.$pet["lostPic"].'" style="height:250px; width:200px; color: #004B98;">';
-    echo '<div>Name: '.$pet["lostPetName"].' '.$pet["lostPetLastname"].' <BR>Lost: '.$pet["lastSeen"].' on '.$pet["missingDate"].'</div>';
+    echo "<div class='floater'>";
+    echo '<img src="upload/'.$pet["lostPic"].'" style="height:250px; width:200px;">';
+    echo '<br><strong>Name:</strong> '.$pet["lostPetName"].' '.$pet["lostPetLastname"].'<br><strong>Location Lost:</strong> '.$pet["lastSeen"].'<br><strong> Date Lost:</strong> '.$pet["missingDate"].'<br><br>';
+    echo "</div>";
 }
+
 ?>
 
-    <div>
+    <div style="text-align:left;  position: absolute; bottom: 10px; width: 50%;">
         <h3> Lost Your Pet? </h3>
         <form method="POST" action="functions/process_form.php" enctype="multipart/form-data">
         <input type="hidden" name="formType" value="lost">

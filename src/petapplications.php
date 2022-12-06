@@ -25,7 +25,7 @@
     <h3> Owner: </h3>
     Owner's First Name: <input name="ownerFirst" type="text"><BR/>
     Owner's Last Name: <input name="ownerLast" type="text"><BR/>
-    Cellphone Number: <input name="ownerCell" type="tel"><BR/>
+    Cell Phone Number: <input name="ownerCell" type="tel"><BR/>
     E-mail: <input name="ownerEmail" type="text"><BR/>
 
     <h3> Pet: </h3>

@@ -37,11 +37,11 @@
 
     <div style="width: 60%; float: right; margin-right: 15px; color: #004B98; padding-top: 50px;"> 
         <h2> Pet Spotlight: </h2>
-        <div style="background-color: #bed2fe; border: 10px solid #004B98;">
+        <div style="background-color: #bed2fe; border: 10px solid #004B98; text-align: center;">
         <?PHP 
         echo "<p id='petName' style='font-size: 20px'>Pet's Name: </p>";
         echo "<p id='petOwner' style='font-size: 20px'>Owner: </p>";
-        echo "<img id='petImage' style='margin-left: 410px; height:250px;'>";
+        echo "<img id='petImage' style='height:250px;'>";
         echo "<p id='petFact' style='font-size: 20px; padding-left:100px; padding-right:100px;'>Fun Fact: </p>";
         ?>
         </div>

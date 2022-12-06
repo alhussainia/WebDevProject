@@ -28,4 +28,3 @@ Request type: GET
 Request parameters: GET requests parameters are found in strings at the end of the API URL path (at the end of the URL)
 Response type: output_error
 Example: The pet spotlight on the homepage of our website 
-

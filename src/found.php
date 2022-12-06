@@ -9,9 +9,12 @@
 </head>  
 
 <body>
+
+<div>
+<a href=index.php><img src="../imgs/new_pet_logo-removebg.png" alt="logo" id="logo" style="float:left; position: rleative; margin-top: -20px; height: 150px; width: 200px;"><a>
     <h1>Found</h1>
-     
     <?PHP require("navbar.php");?>
+</div>
 
     <div>
         <h2>Found Pets</h2>
@@ -20,19 +23,31 @@
 
         <div>
         <h3> Found Pets: </h3>
-        <img src="../imgs/Angel.png" style="height:250px; width:200px; color: #004B98;">
-        <div>Name: Angel Closs <BR>Found: The Dell on 9/18/22</div>
         </div>
 
+<?PHP
+require_once("functions/database_functions.php");    
+$pdo = connect_to_db();
+$pets = $pdo->query("SELECT * FROM foundPet;");
 
+foreach($pets as $pet) {
+    echo "<div class='floater' style='text-align: center'>";
+    echo '<img src="upload/'.$pet["foundPic"].'" style="height:250px; width:200px; color: #004B98;">';
+    echo '<div><strong>Name:</strong> '.$pet["foundPetName"].'<br> <strong>Description:</strong> '.$pet["foundPetDescription"].' <br> <strong>Location Found:</strong> '.$pet["locationFound"].'<br> <strong>Date Found:</strong>'.$pet["foundDate"].'</div>';
+    echo "</div>";
+}
+?>
     
-        <div>
+        <div style="text-align:left;  position: absolute; bottom: 10px; width: 50%;">
         <h3> Did you find a pet? </h3>
-        <form method=post action=students.php>
-        Pet First Name: <input name="first_name"><BR/>
-        Pet Description: <input name="description"><BR/>
-        Date Found: <input name="date"><BR/>
-        Location Found:  <input name="location"><BR/>
+        <form method="POST" action="functions/process_form.php" enctype="multipart/form-data">
+        <input type="hidden" name="formType" value="found">
+        Pet's Name: <input name="foundPetName" type="text"><BR/>
+        Pet's Description: <input name="foundPetDescription" type="text"><BR/>
+        Date Found: <input name="foundDate" type="text"><BR/>
+        Location Found:  <input name="locationFound" type="text"><BR/>
+        Picture of Pet: <input type="file" id="foundPic" name="foundPic"
+       accept="image/png, image/jpeg, image/heic"><BR/>
         <input type="submit" value="Submit">
         </form>
 

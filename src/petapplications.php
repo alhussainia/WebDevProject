@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,48 +7,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <h1>Pet Applications</h1>
+    
 </head> 
 
 <body>
-    
+
+<div>
+<a href=index.php><img src="../imgs/new_pet_logo-removebg.png" alt="logo" id="logo" style="float:left; position: rleative; margin-top: -20px; height: 150px; width: 200px;"><a>
+    <h1>Pet Applications</h1>
     <?PHP require("navbar.php");?>
-    <h2> Interested In Having Your Pet Featured? </h2>
-    <h3 style = "text-align: center;"> Complete the application below! </h3>
+</div>
 
-    <div class = "forms" style="height: 400px; color: #004B98;">
-    <div class="petform">
-    <section class = "forum">
-    <form method = post style="float:right; margin-right:20px; color: #004B98;">
-        Pet Name:<br><br> <input name = "petName" type = "text">
-        <br>
-        <br>
-        Appearance:<br><br><textarea rows = "5" name = "appearance"></textarea>
-        <br>
-        <br>
-        Nature:<br><br><textarea rows = "5" name = "nature"></textarea>
-        <br>
-        <br>
-        Microchipped: <input name = "chipped" type = "checkbox" value = 1>
-    </form>
-    </div>
+<h2> Fill out an application today to create a profile for your pet! </h2>
+<h3 style = "text-align: center;"> Complete the application below! </h3>
+<form id="surveyForm" method="POST" action="functions/process_form.php" enctype="multipart/form-data">
+    <input hidden="hidden" name="formType" value="application">
+    <h3> Owner: </h3>
+    Owner's First Name: <input name="ownerFirst" type="text"><BR/>
+    Owner's Last Name: <input name="ownerLast" type="text"><BR/>
+    Cell Phone Number: <input name="ownerCell" type="tel"><BR/>
+    E-mail: <input name="ownerEmail" type="text"><BR/>
 
-    <div class= "ownerform">
-    <form method = post" style="float:left; margin-left:20px; color: #004B98;">
-        Owner's Name: <br><br> <input name = "petName" type = "text">
-        <br>
-        <br>
-        Cell-phone Number:<br><br><textarea name = "number"></textarea>
-        <br>
-        <br>
-        <!--E-mail<br><br><label>Email Address</label>-->
-        E-mail<br><br><input type="text" name="email_address" size="20"><mail></mail>
-        <br>
-        <br>
-    </form>
-    </div>
-    </div>
-    <div style="text-align: center;"><input type = "submit" value = "Submit"></div>
-    </section>
-</body>
-</html>
+    <h3> Pet: </h3>
+    Pet Name: <input name="petName" type="text"><BR/>
+    Pet Species: <input name="petSpecies" type="text"><BR/>
+    Pet Date of Birth: <input name="petBirthday" type="text"><BR/>
+    Pet Breed: <input name="petBreed" type="text"><BR/>
+    Pet Color: <select name="petColor">
+    <option value = "">--Select--</option>
+    <option value="Black">Black</option>
+    <option value="White">White</option>
+    <option value="Orange">Orange</option>
+    <option value="Gray">Gray</option>
+    <option value="Brown">Brown</option>
+    <option value="Red">Red</option>
+    <option value="Orange">Orange</option>
+    <option value="Yellow">Yellow</option>
+    <option value="Gold">Gold</option>
+    <option value="Tan">Tan</option>
+    <option value="Cream">Cream</option>
+    <option value="Brindle">Brindle</option>
+    <option value="Tri-color">Tri-color</option>
+    <option value="Multi-color">Multi-color</option>
+    <option value="Other">Other</option>
+    </select><br/>
+    Pet Fur Type:<select name="petFur">
+    <option value = "">--Select--</option>
+    <option value="Short">Short</option>
+    <option value="Long">Long</option>
+    <option value="Curly">Curly</option>
+    <option value="Hairless">Hairless</option>
+    <option value="Other">Other</option>
+    </select><br/>
+    Pet Personality: <input name="petPersonality" type="text"><BR/>
+    Is your pet microchipped?</br>
+    <input type="radio" name = "petChip" id="chipChoice1" value="Yes">
+        <label for="chipChoice1">Yes</label><br>
+    <input type="radio" name = "petChip" id="chipChoice2" value="No">
+        <label for="chipChoice2">No</label><br>
+    Pet Warnings: <input name="petWarning" type="text" placeholder="Ex. Bites when scared"><BR/>
+    Pet Picture: <input type="file" id="petPic" name="petPic"
+       accept="image/png, image/jpeg, image/heic"><BR/>
+
+       <input type="submit" value="Submit">
+</form>

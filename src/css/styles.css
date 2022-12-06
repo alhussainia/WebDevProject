@@ -9,6 +9,14 @@ h2 {
     color: #004B98;
 }
 
+.logo{
+    float:left; 
+    position: absolute; 
+    margin-top: -20px; 
+    height: 150px; 
+    width: 200px;
+}
+
 p{
     text-align: center; 
     font-size: 18px;
@@ -34,17 +42,8 @@ footer{
 }
 
 .forms{
-    text-align: center;
-}
-
-.petform{
-    float: left;
-    width: 50%;
-}
-
-.ownerform{
-    float: right;
-    width: 50%;
+    height: 25px;
+    color: #004B98;
 }
 
 
@@ -53,12 +52,22 @@ footer{
     float: left;
     text-align: center;
     padding: 20px;
+
 }
 
 .id {
-    color: blue;
+    color: black;
 }
 
 .profiles {
     color: orange;
+}
+
+#surveyForm{
+    text-align: center;
+}
+
+#surveyForm input,
+#surveyForm select {
+    margin: 10px;
 }

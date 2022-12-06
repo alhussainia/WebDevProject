@@ -10,28 +10,44 @@
 </head> 
 
 <body>
-
-    <h1>Lost</h1>   
-     
+<div>
+<a href=index.php><img src="../imgs/new_pet_logo-removebg.png" alt="logo" id="logo" style="float:left; position: rleative; margin-top: -20px; height: 150px; width: 200px;"><a>
+    <h1>Lost</h1>
     <?PHP require("navbar.php");?>
-
+</div>
     <h2>Lost Pets</h2>
         <p>The purpose of this page is for pet owners to update information on their pets if they go missing to help find missing pets on campus.</p>
-
     </div>  
-    <div> 
-        <h3> Lost Pets: </h3>
-        <img src="../imgs/Spencer.png" style="height:250px; width:200px; color: #004B98;">
-        <div>Name: Spencer Shreiner <BR>Lost: Brinser Field on 9/22/22</div>
-    </div>
 
     <div>
+        <h3> Lost Pets: </h3>
+        </div>
+
+<?PHP
+
+require_once("functions/database_functions.php");    
+$pdo = connect_to_db();
+$pets = $pdo->query("SELECT * FROM lostPet;");
+
+foreach($pets as $pet) {
+    echo "<div class='floater'>";
+    echo '<img src="upload/'.$pet["lostPic"].'" style="height:250px; width:200px;">';
+    echo '<br><strong>Name:</strong> '.$pet["lostPetName"].' '.$pet["lostPetLastname"].'<br><strong>Location Lost:</strong> '.$pet["lastSeen"].'<br><strong> Date Lost:</strong> '.$pet["missingDate"].'<br><br>';
+    echo "</div>";
+}
+
+?>
+
+    <div style="text-align:left;  position: absolute; bottom: 10px; width: 50%;">
         <h3> Lost Your Pet? </h3>
-        <form method=post action=students.php>
-        Pet First Name: <input name="first_name"><BR/>
-        Pet Last Name: <input name="last_name"><BR/>
-        Date Missing: <input name="date"><BR/>
-        Last Seen Here: <input name="last_seen"><BR/>
+        <form method="POST" action="functions/process_form.php" enctype="multipart/form-data">
+        <input type="hidden" name="formType" value="lost">
+        Pet's Name: <input name="lostPetName" type="text"><BR/>
+        Pet's Last Name: <input name="lostPetLastname" type="text"><BR/>
+        Date Missing: <input name="missingDate" type = "text"><BR/>
+        Last Seen Here: <input name="lastSeen" type="text"><BR/>
+        Picture of Pet: <input type="file" id="lostPic" name="lostPic"
+       accept="image/png, image/jpeg, image/heic"><BR/>
         <input type="submit" value="Submit">
         </form>
 

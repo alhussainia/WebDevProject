@@ -4,4 +4,9 @@ Introduction to the project: This a website for the Elizabethtown College studen
 
 Introduction to the website: It is created using Visual Studio code, writing in php, js, and css for stylization. The database was created on mysql and stores the pet profiles that were created. An API was created to display a pet spotlight on the home page and change every time the page is clicked on or refreshed. 
 
+How MySQL Database was used: 
+
+Instruction on setup of the project/website/application on local machine: 
+
+Documentation on APIs: 
 

@@ -4,7 +4,7 @@ Introduction to the project: This a website for the Elizabethtown College studen
 
 Introduction to the website: It is created using Visual Studio code, writing in php, js, and css for stylization. The database was created on mysql and stores the pet profiles that were created. An API was created to display a pet spotlight on the home page and change every time the page is clicked on or refreshed. 
 
-How MySQL Database was used: 
+How MySQL Database was used: Data was created on the petapplications page and imported into the MySQL database using the ER Model that was originally created earlier in the semester
 
 Instruction on setup of the project/website/application on local machine: 
 1. Project was created on xampp and htdocs folder 
@@ -24,4 +24,8 @@ Instruction on setup of the project/website/application on local machine:
 15. Presented our website 
 
 Documentation on APIs: 
+Request type: GET
+Request parameters: GET requests parameters are found in strings at the end of the API URL path (at the end of the URL)
+Response type: output_error
+Example: The pet spotlight on the homepage of our website 
 

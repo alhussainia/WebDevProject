@@ -8,8 +8,10 @@
             <a class="nav-item nav-link" href="<?PHP echo $path; ?>lost.php"> Lost |</a>
             <a class="nav-item nav-link" href="<?PHP echo $path; ?>found.php"> Found |</a>
             <a class="nav-item nav-link" href="<?PHP echo $path; ?>petapplications.php"> Pet Applications |</a>
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <form action = 'search.php' method = "post" style="display: inline;">
+                <input type= "text" placeholder= "Pet Name" name = "term">
+                <input type= "submit" value="Search">
+            </form>
         </div>
     </nav>
 </div>

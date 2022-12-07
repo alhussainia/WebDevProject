@@ -36,7 +36,6 @@ function process_application($data) {
     receiveUpload("petPic",$newName);
     $updateStmt = $pdo->prepare("UPDATE petProfile SET petPic = :petPic WHERE petID = :id;");
     $updateStmt->execute([":petPic"=>$newName,":id"=>$petID]);
-    var_dump($newName);
 }
 
 function add_lost_pet($data) {
@@ -45,7 +44,7 @@ function add_lost_pet($data) {
     $stmt->execute([":lostPetName"=>$data["lostPetName"],":lostPetLastname"=>$data["lostPetLastname"],":missingDate"=>$data["missingDate"],":lastSeen"=>$data["lastSeen"]]);
 
     $lostPetID = $pdo->lastInsertId();
-    $fileEnding = pathinfo($_FILES["lostPic"]["full_path"])["extension"];
+    $fileEnding = pathinfo($_FILES["lostPic"]["name"])["extension"];
     $newName = "lost_".$lostPetID.".".$fileEnding;
     receiveUpload("lostPic",$newName);
     $updateStmt = $pdo->prepare("UPDATE lostPet SET lostPic = :lostPic WHERE lostPetID = :id;");
@@ -58,7 +57,7 @@ function add_found_pet($data) {
     $stmt->execute([":foundPetName"=>$data["foundPetName"],":foundPetDescription"=>$data["foundPetDescription"],":foundDate"=>$data["foundDate"],":locationFound"=>$data["locationFound"]]);
 
     $foundPetID = $pdo->lastInsertId();
-    $fileEnding = pathinfo($_FILES["foundPic"]["full_path"])["extension"];
+    $fileEnding = pathinfo($_FILES["foundPic"]["name"])["extension"];
     $newName = "found_".$foundPetID.".".$fileEnding;
     receiveUpload("foundPic",$newName);
     $updateStmt = $pdo->prepare("UPDATE foundPet SET foundPic = :foundPic WHERE foundPetID = :id;");

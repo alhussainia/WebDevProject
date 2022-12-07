@@ -24,7 +24,10 @@ Instruction on setup of the project/website/application on local machine:
 15. Presented our website 
 
 Documentation on APIs: 
+src/getpet.php
 Request type: GET
-Request parameters: GET requests parameters are found in strings at the end of the API URL path (at the end of the URL)
-Response type: output_error
-Example: The pet spotlight on the homepage of our website 
+Request parameters: name - the name of the pet that you want data for or 'all' to get an array of all pet data
+Response type: json data about the pet including name, owner, image, and fact
+Example: The pet spotlight on the homepage of our website uses the api
+Example 2: input - getpet.php?name=Kyra
+           output - {"name":"Kyra","owner":"Kelsey Knappenberger","image":"imgs\/Kyra.jpg","fact":"Kyra has been featured on Etown's newspaper The Etownian twice. \r\n Both times the authors have mentioned her love for hiding."}

@@ -31,11 +31,12 @@ function process_application($data) {
     $stmt->execute([":petName"=>$data["petName"],":petSpecies"=>$data["petSpecies"],":petBirthday"=>$data["petBirthday"],":petBreed"=>$data["petBreed"],":petColor"=>$data["petColor"],":petFur"=>$data["petFur"],":petPersonality"=>$data["petPersonality"],":petChip"=>$data["petChip"],":petWarning"=>$data["petWarning"],":ownerID"=>$ownerID]);
     
     $petID = $pdo->lastInsertId();
-    $fileEnding = pathinfo($_FILES["petPic"]["full_path"])["extension"];
+    $fileEnding = pathinfo($_FILES["petPic"]["name"])["extension"];
     $newName = "pet_".$petID.".".$fileEnding;
     receiveUpload("petPic",$newName);
     $updateStmt = $pdo->prepare("UPDATE petProfile SET petPic = :petPic WHERE petID = :id;");
     $updateStmt->execute([":petPic"=>$newName,":id"=>$petID]);
+    var_dump($newName);
 }
 
 function add_lost_pet($data) {

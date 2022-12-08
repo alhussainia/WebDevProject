@@ -6,12 +6,13 @@ if(!isset($_GET["id"])) {
     echo "Error: Pet not found";
     exit;
 }
-require_once("../functions/database_functions.php");
+
+require_once(__DIR__."/../functions/database_functions.php");
 $pdo = connect_to_db();
 $stmt = $pdo->prepare("SELECT * FROM petProfile WHERE petID=:id");
 $stmt->execute([":id"=>$_GET["id"]]);
 $pet = $stmt->fetch(PDO::FETCH_ASSOC);
-//var_dump($pet);
+
 if(!is_array($pet)) {
     echo "Error: Pet not found";
     exit;
@@ -26,10 +27,10 @@ if(!is_array($pet)) {
     <link rel="stylesheet" type="text/css" href="../css/styles.css">
 </head> 
 <body>
-<?PHP $path = "../"; require("../navbar.php"); ?>
+<?PHP $path = "../"; require(__DIR__."/../navbar.php"); ?>
 <h1 style="margin-bottom: 50px;"><?php echo $pet["petName"]; ?>'s Profile </h1>
 
-<img src="../upload/<?PHP echo $pet["petPic"]; ?>" style="width: 45%; display:block; margin:auto;">
+<img src="<?PHP global $GCLOUD; echo ($GCLOUD ? '../imgs/pet_profiles_no_background.png' : '../upload/'.$pet["petPic"]); ?>" style="width: 45%; display:block; margin:auto;">
 
 <div style="margin-center: 0;">
     <h2><?php echo $pet["petName"]; ?>'s Info</h2>

@@ -31,11 +31,12 @@
 require_once("functions/database_functions.php");    
 $pdo = connect_to_db();
 $pets = $pdo->query("SELECT * FROM petProfile;");
+global $GCLOUD;
 
 foreach($pets as $pet) {
     echo "<a href='pets/pet.php?id=".$pet["petID"]."'>";
     echo "<div class='floater'>";
-    echo '<img src="upload/'.$pet["petPic"].'" style="height:250px; width:200px; display:block;">';
+    echo '<img src="'.($GCLOUD ? '../imgs/pet_profiles_no_background.png' : 'upload/'.$pet["petPic"]).'" style="height:250px; width:200px; display:block;">';
     echo "<p><u>".$pet["petName"]."</u></p>";
     echo "</div></a>";
 }

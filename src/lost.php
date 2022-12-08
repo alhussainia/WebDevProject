@@ -28,10 +28,11 @@
 require_once("functions/database_functions.php");    
 $pdo = connect_to_db();
 $pets = $pdo->query("SELECT * FROM lostPet;");
+global $GCLOUD;
 
 foreach($pets as $pet) {
     echo "<div class='floater'>";
-    echo '<img src="upload/'.$pet["lostPic"].'" style="height:250px; width:200px;">';
+    echo '<img src="'.($GCLOUD ? '../imgs/pet_profiles_no_background.png' : 'upload/'.$pet["lostPic"]).'" style="height:250px; width:200px;">';
     echo '<br><strong>Name:</strong> '.$pet["lostPetName"].' '.$pet["lostPetLastname"].'<br><strong>Location Lost:</strong> '.$pet["lastSeen"].'<br><strong> Date Lost:</strong> '.$pet["missingDate"].'<br><br>';
     echo "</div>";
 }

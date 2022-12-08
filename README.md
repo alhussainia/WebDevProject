@@ -23,6 +23,8 @@ Instruction on setup of the project/website/application on local machine:
 14. Created powerpoint 
 15. Presented our website 
 
+Website URL: https://webdev-370920.wl.r.appspot.com/
+
 Documentation on APIs: 
 src/getpet.php
 Request type: GET
